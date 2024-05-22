@@ -1,3 +1,26 @@
-body {
-
+nav{
+  list-style-type: none;
+  position: fixed;
+  color:#386150;
+  background-color:#ded7c8;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding:10px;
+  font-weight:bold;
+  font-size:20px;
 }
+ 
+li{
+  display: inline;
+  padding: 15px;
+}
+
+a{
+  text-decoration: none;
+  color:#386150 
+}
+li:hover{
+  background-color:white;
+}
+     
